@@ -42,6 +42,6 @@ class ProjectStyle {
     letterSpacing: 2,
     color: Colors.purple,
     fontWeight: FontWeight.bold,
-    fontSize: 16,
+    fontSize: 30,
   );
 }

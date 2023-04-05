@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_educate_101/text_view.dart';
 
+import 'conteiner_sizedbox.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TextView(),
+      home: SizedBoxConteiner(),
       debugShowCheckedModeBanner: false,
     );
   }
