@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SizedBoxConteiner extends StatelessWidget {
+  const SizedBoxConteiner({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,10 +23,10 @@ class SizedBoxConteiner extends StatelessWidget {
               height: 60,
               constraints: const BoxConstraints(
                   maxWidth: 150, minWidth: 100, maxHeight: 100),
-              child: Text('Flutter' * 10),
               padding: const EdgeInsets.all(10),
               margin: const EdgeInsets.all(10),
-              decoration: ConteinerDecoretion.boxDecoration),
+              decoration: ConteinerDecoretion.boxDecoration,
+              child: Text('Flutter' * 10)),
         ],
       ),
     );

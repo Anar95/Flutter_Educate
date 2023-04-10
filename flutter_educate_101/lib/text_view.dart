@@ -35,6 +35,7 @@ class TextView extends StatelessWidget {
 }
 
 class ProjectStyle {
+  // ignore: non_constant_identifier_names
   static TextStyle Style1 = const TextStyle(
     wordSpacing: 2,
     decoration: TextDecoration.underline,
