@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'button.dart';
+import 'column_row.dart';
 
 
 
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ButtonLearn (),
+      home: ColumnRow (),
       
     );
   }
